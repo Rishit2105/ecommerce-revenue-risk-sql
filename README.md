@@ -12,3 +12,13 @@ Olist is neither an E-commerce company nor a marketplace itself. Olist provides 
 1. One order can have different reviews at different time even though the order has yet to be completed (delivered to the customer).
 2. Customers state is actually their shipping address state (and one customer can have different ones), which is not explicit in the dataset.
 3. Discrepancies between order value and payment amount.
+
+ecommerce-revenue-risk-sql/
+  ├─ data_raw/
+  │    ├─ olist_orders_dataset.csv
+  │    ├─ olist_customers_dataset.csv
+  │    └─ olist_order_items_dataset.csv
+  ├─ python/
+  │    └─ profit_estimation.ipynb
+  └─ outputs/
+
